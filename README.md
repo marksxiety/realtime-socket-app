@@ -28,23 +28,13 @@ Before running the application, ensure you have the following installed:
      npm -v
      ```
 
-### 3. **Python** (Optional, depending on use case)
+### 3. **Python**
    - If the project includes any Python-related tasks (such as data processing or server-side scripts), make sure Python is installed.
    - Download and install Python from [here](https://www.python.org/downloads/).
    - Verify Python installation by running:
      ```bash
      python --version
      ```
-
-### 4. **Python Dependencies**
-   - Install the required Python libraries for the application by running:
-     ```bash
-     pip install python-socketio
-     ```
-   - **Note:** The `random` and `time` modules are part of the Python standard library and do not need to be installed separately.
-
-   These dependencies are needed for the Python part of the application to establish Socket.IO communication and generate random numbers or handle time-based logic.
-
 
 ## Project Setup
 
